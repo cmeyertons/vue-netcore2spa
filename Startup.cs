@@ -33,6 +33,7 @@ namespace vue_netcore2spa
                 app.UseDeveloperExceptionPage();
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
+                    ConfigFile = "node_modules/@vue/cli-service/webpack.config.js",
                     HotModuleReplacement = true
                 });
             }

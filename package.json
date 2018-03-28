@@ -19,7 +19,10 @@
     "@vue/cli-service": "^3.0.0-beta.6",
     "@vue/eslint-config-prettier": "^3.0.0-beta.6",
     "@vue/eslint-config-typescript": "^3.0.0-beta.6",
-    "vue-template-compiler": "^2.5.13"
+    "aspnet-webpack": "^2.0.3",
+    "vue-template-compiler": "^2.5.13",
+    "webpack-dev-middleware": "^3.1.0",
+    "webpack-hot-middleware": "^2.21.2"
   },
   "browserslist": [
     "> 1%",
