@@ -4,6 +4,7 @@ node_modules
 
 /bin
 /obj
+/wwwroot/dist
 
 # local env files
 .env.local
