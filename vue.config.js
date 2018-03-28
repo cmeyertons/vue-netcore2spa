@@ -2,6 +2,7 @@ const path = require("path");
 const bundleOutputDir = "./wwwroot/dist";
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
+//note: you can use vue inspect > test.js to generate what the webpack.config will kinda look like, good for testing changes here
 module.exports = {
   lintOnSave: false,
   //https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md

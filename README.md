@@ -14,7 +14,8 @@
 
 ## Getting Started
 
-Run `npm install`
+1.  Install `vue-cli` globally from npm running: `npm install @vue/cli -g`
+2.  `cd` into `vue-netcore2psa` and fetch packages running: `npm install`
 
 Execute `dotnet run` to get your ASP.NET server running -- this will be serving up your Vue files via hot reload to enable fast development.
 
