@@ -43,7 +43,7 @@
             "processId": "${command:pickProcess}"
         },
         {
-            "name": "Launch localhost",
+            "name": "Chrome - Launch",
             "type": "chrome",
             "request": "launch",
             "url": "http://localhost:5000",
