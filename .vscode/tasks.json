@@ -10,6 +10,17 @@
                 "${workspaceFolder}/vue-netcore2spa.csproj"
             ],
             "problemMatcher": "$msCompile"
+        }, {
+            "label": "run",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "run",
+                "ASPNETCORE_ENVIRONMENT=Development",
+                // "${workspaceFolder}/vue-netcore2spa.csproj"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": "build"
         }
     ]
 }
