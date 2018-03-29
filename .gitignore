@@ -2,9 +2,9 @@
 node_modules
 /dist
 
-/bin
-/obj
-/wwwroot/dist
+**/bin
+**/obj
+**/wwwroot/dist
 
 # local env files
 .env.local
