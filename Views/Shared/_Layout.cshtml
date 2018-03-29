@@ -5,17 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - vue_netcore2spa</title>
     <base href="~/" />
-
-    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
-    <!-- <environment exclude="Development">
-        <link rel="stylesheet" href="~/dist/site.css" asp-append-version="true" />
-    </environment> -->
-    <link rel="stylesheet" href="~/dist/app.css" asp-append-version="true" />
+    @RenderSection("styles", required: false)
+<link rel="preload" as="script" href="dist/app.js">
 </head>
 <body>
     @RenderBody()
-
-    <script src="~/dist/vendor.js" asp-append-version="true"></script>
     @RenderSection("scripts", required: false)
-</body>
+<script type="text/javascript" src="dist/app.js"></script></body>
 </html>
