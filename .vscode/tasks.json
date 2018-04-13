@@ -21,6 +21,28 @@
       ],
       "problemMatcher": "$msCompile",
       "dependsOn": "build"
+    },
+    {
+      "label": "publish",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "publish",
+        "${workspaceFolder}/vue-netcore2spa.web",
+        "-o",
+        "out",
+        "/p:PublishWithAspNetCoreTargetManifest=\"false\""
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "docker - build",
+      "command": "docker",
+      "type": "process",
+      "args": ["build", "--pull", "-t", "vue-netcore2spa", "."],
+      "problemMatcher": "$msCompile"
     }
+
+    //docker run --name vue-netcore2spa-test --rm -it -p 8000:80 vue-netcore2spa
   ]
 }
