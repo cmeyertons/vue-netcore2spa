@@ -1,8 +1,9 @@
 .DS_Store
 node_modules
-/dist
 /.vs
 
+**/out
+**/dist
 **/bin
 **/obj
 **/wwwroot/dist
