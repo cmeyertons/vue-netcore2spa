@@ -1,4 +1,4 @@
-# vue-netcore2spa
+# vue-netcore2spa [![Build Status](https://carlmeyertons.visualstudio.com/_apis/public/build/definitions/7ca46c5a-ea42-4893-85ed-f3c2e71f5f30/1/badge)](https://carlmeyertons.visualstudio.com/vue-netcore2spa/_build/index?definitionId=1)
 
 1.  .NET core
 2.  VueJS configured using `vue-cli` (uses ESLint, Webpack, Babel, and TypeScript under the covers)
